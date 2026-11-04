@@ -72,7 +72,7 @@ _All data shown is fictional._
 erDiagram
     USER }o--o{ STUDENT : "guardian of"
     SCHOOLCLASS ||--o{ STUDENT : has
-    TERM ||--o{ FEE ITEM : defines
+    TERM ||--o{ FEEITEM : defines
     SCHOOLCLASS ||--o{ FEEITEM : "priced for"
     STUDENT ||--o{ INVOICE : "billed to"
     TERM ||--o{ INVOICE : "issued for"
@@ -148,4 +148,3 @@ The interesting part of a fees system is that it handles money, so the design le
 
 - Email: brianprofocus@gmail.com
 - LinkedIn: [linkedin.com/in/brian-obonyo-238635298](https://linkedin.com/in/brian-obonyo-238635298)
-
