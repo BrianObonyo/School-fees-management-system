@@ -73,10 +73,10 @@ erDiagram
     USER }o--o{ STUDENT : "guardian of"
     SCHOOLCLASS ||--o{ STUDENT : has
     TERM ||--o{ FEE ITEM : defines
-    SCHOOLCLASS ||--o{ FEE ITEM : "priced for"
+    SCHOOLCLASS ||--o{ FEEITEM : "priced for"
     STUDENT ||--o{ INVOICE : "billed to"
     TERM ||--o{ INVOICE : "issued for"
-    INVOICE ||--o{ INVOICE LINE : contains
+    INVOICE ||--o{ INVOICELINE : contains
     INVOICE ||--o{ PAYMENT : "settled by"
     USER ||--o{ PAYMENT : records
     USER ||--o{ AUDITLOG : performs
