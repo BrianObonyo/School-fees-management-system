@@ -72,11 +72,11 @@ _All data shown is fictional._
 erDiagram
     USER }o--o{ STUDENT : "guardian of"
     SCHOOLCLASS ||--o{ STUDENT : has
-    TERM ||--o{ FEEITEM : defines
-    SCHOOLCLASS ||--o{ FEEITEM : "priced for"
+    TERM ||--o{ FEE ITEM : defines
+    SCHOOLCLASS ||--o{ FEE ITEM : "priced for"
     STUDENT ||--o{ INVOICE : "billed to"
     TERM ||--o{ INVOICE : "issued for"
-    INVOICE ||--o{ INVOICELINE : contains
+    INVOICE ||--o{ INVOICE LINE : contains
     INVOICE ||--o{ PAYMENT : "settled by"
     USER ||--o{ PAYMENT : records
     USER ||--o{ AUDITLOG : performs
@@ -144,7 +144,7 @@ The interesting part of a fees system is that it handles money, so the design le
 
 ## Contact
 
-**Brian Obonyo**: full-stack developer (Django, React, Next.js, FastAPI, PostgreSQL, SQL Server)
+**Brian Obonyo**: full-stack developer 
 
 - Email: brianprofocus@gmail.com
 - LinkedIn: [linkedin.com/in/brian-obonyo-238635298](https://linkedin.com/in/brian-obonyo-238635298)
