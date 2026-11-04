@@ -147,4 +147,4 @@ The interesting part of a fees system is that it handles money, so the design le
 **Brian Obonyo**: full-stack developer 
 
 - Email: brianprofocus@gmail.com
-- LinkedIn: [linkedin.com/in/brian-obonyo-238635298](https://linkedin.com/in/brian-obonyo-238635298)
+- LinkedIn: [linkedin.com/in/brian-obonyo-238635298](https://www.linkedin.com/in/brianobonyo/)
